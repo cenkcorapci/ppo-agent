@@ -22,7 +22,7 @@ random_seed = None
 ################## Other ######################
 
 EXPERIMENT_NAME = f'ppo_{time.time()}'
-TB_LOGS_PATH = f'/tmp/tb_logs/{EXPERIMENT_NAME}'
+TB_LOGS_PATH = f'/home/cenk/research/experiment-results/drl/tb_logs/{EXPERIMENT_NAME}'
 MODEL_PATH = '/home/cenk/research/drl/workout/saved_models/'
 
 pathlib.Path(TB_LOGS_PATH).mkdir(parents=True, exist_ok=True)
