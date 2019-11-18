@@ -140,4 +140,7 @@ networks/pose/AlphaPose_pytorch/models/
 
 # test_datas
 /tests/test_logs/
-saved_models
+
+# Project specific
+models
+tb_logs
